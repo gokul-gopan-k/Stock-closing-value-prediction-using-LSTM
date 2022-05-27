@@ -1,1 +1,2 @@
 # Stock-closing-value-prediction-using-LSTM
+This project predicts the closing value of stock for next 40 days given a set of closing stock values using a LSTM model. The input file should be a csv file named stock.csv whose path is to be provided to "data_path_csv" variable in config.py file. The input csv file should have two columns with first column being the date on which closing value of stock is taken and next column with header "Close" with the closing stock value of corresponding day.
